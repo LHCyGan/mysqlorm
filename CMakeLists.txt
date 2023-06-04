@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.19)
+project(yazi-mysql)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_compile_options("$<$<C_COMPILER_ID:MSVC>:/utf-8>")
+add_compile_options("$<$<CXX_COMPILER_ID:MSVC>:/utf-8>")
+
+include_directories(./)
+
+# 包含 mysql 头文件所在目录
+include_directories("D:/Apps/MySQL/mysql-8.0.30-winx64/include/")
+
+file(GLOB_RECURSE SOURCES "utility/*.cpp" "myorm/*.cpp" "models/*.cpp")
+
+# 链接 mysql 库文件
+link_directories("D:/Apps/MySQL/mysql-8.0.30-winx64/lib/")
+link_libraries(libmysql)
+
+add_executable(main ${SOURCES} main.cpp)
