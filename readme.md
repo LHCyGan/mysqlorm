@@ -15,3 +15,9 @@
 # 结构图
 
 ![img](./figures/architecture.png)
+
+### TODO
+
+- [x] 日志logger部分，和数据库的Value对象
+- [ ] 连接池
+
