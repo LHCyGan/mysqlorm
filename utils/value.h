@@ -12,7 +12,7 @@ namespace lh {
 				V_NULL = 0,
 				V_BOOL,
 				V_INT,
-				V_DOYUBLE,
+				V_DOUBLE,
 				V_STRING
 			};
 
