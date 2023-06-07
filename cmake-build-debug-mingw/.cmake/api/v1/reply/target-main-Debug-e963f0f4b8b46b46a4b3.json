@@ -88,7 +88,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -137,19 +138,27 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				3
+				4,
+				5
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "myorm/connection.cpp",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
@@ -171,6 +180,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "myorm/batch.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "myorm/connection.h",
 			"sourceGroupIndex" : 1
 		}
 	],

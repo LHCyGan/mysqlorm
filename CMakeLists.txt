@@ -19,4 +19,4 @@ file(GLOB_RECURSE SOURCES "utils/*.cpp" "myorm/*.cpp" "models/*.cpp")
 link_directories("D:/MySQL/lib/")
 link_libraries(libmysql)
 
-add_executable(main ${SOURCES} main.cpp main.cpp myorm/batch.h)
+add_executable(main ${SOURCES} main.cpp main.cpp myorm/batch.h myorm/connection.h myorm/connection.cpp)
