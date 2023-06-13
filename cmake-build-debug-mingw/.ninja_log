@@ -1,0 +1,9 @@
+# ninja log v5
+20	1231	7083360862214124	CMakeFiles/main.dir/utils/logger.cpp.obj	d3c636566d70a792
+15	267	7083361570276873	CMakeFiles/main.dir/utils/value.cpp.obj	c5f7512c0152e6ca
+4	501	7083366863145282	CMakeFiles/main.dir/myorm/database.cpp.obj	dc6d369eb3f9d6eb
+1	679	7083371367349797	CMakeFiles/main.dir/main.cpp.obj	e1a066a78a6ec23b
+1	516	7083366863285272	CMakeFiles/main.dir/myorm/connection_pool.cpp.obj	40a7634667af9556
+13	580	7083366863936505	CMakeFiles/main.dir/myorm/transaction.cpp.obj	2872674c097e6809
+7	828	7083366866426818	CMakeFiles/main.dir/myorm/connection.cpp.obj	8121328ab5e6685a
+1	651	7083372713022495	CMakeFiles/main.dir/myorm/connection.cpp.obj	8121328ab5e6685a

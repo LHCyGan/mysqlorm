@@ -39,7 +39,7 @@ namespace lh {
 			Value& operator=(const Value& value);
 
 			bool operator== (const Value& other);
-			bool operator== (const Value& other);
+			bool operator!= (const Value& other);
 
 			operator bool();
 			operator int();

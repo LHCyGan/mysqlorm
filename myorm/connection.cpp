@@ -312,10 +312,10 @@ bool Connection::auto_commit() {
 void Connection::auto_commit(bool auto_commit) {
     m_auto_commit = auto_commit;
     if (auto_commit) {
-        mysql_autocommit(&m_mysql, 1);
+        mysql_autocommit(&m_mysql, true);
     }
     else {
-        mysql_autocommit(&m_mysql, 0);
+        mysql_autocommit(&m_mysql, false);
     }
 }
 

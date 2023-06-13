@@ -33,7 +33,7 @@ namespace lh {
         public:
             iterator() : m_batch(nullptr), m_next(nullptr) {}
 
-            iterator(Batch<T> *batch) : m_batch(batch), m_next(batch->next());
+            iterator(Batch<T> *batch) : m_batch(batch), m_next(batch->next()) {}
 
             iterator(const iterator& other) = delete;
 

@@ -9,7 +9,7 @@ using namespace lh::utils;
 
 Database::Database() : m_conn(nullptr) {}
 
-Database::Database(Connection *conn) : m_conn(conn);
+Database::Database(Connection *conn) : m_conn(conn) {}
 
 Database::~Database() {}
 

@@ -70,6 +70,13 @@ build CMakeFiles/main.dir/myorm/database.cpp.obj: CXX_COMPILER__main_Debug E$:/C
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir\myorm
 
+build CMakeFiles/main.dir/myorm/transaction.cpp.obj: CXX_COMPILER__main_Debug E$:/CODE/C++/mysqlorm/myorm/transaction.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\myorm\transaction.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -IE:/CODE/C++/mysqlorm/. -ID:/MySQL/include
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\myorm
+
 build CMakeFiles/main.dir/utils/logger.cpp.obj: CXX_COMPILER__main_Debug E$:/CODE/C++/mysqlorm/utils/logger.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles\main.dir\utils\logger.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
@@ -99,7 +106,7 @@ build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_Debug E$:/CODE/C++/my
 #############################################
 # Link the executable main.exe
 
-build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/myorm/connection.cpp.obj CMakeFiles/main.dir/myorm/connection_pool.cpp.obj CMakeFiles/main.dir/myorm/database.cpp.obj CMakeFiles/main.dir/utils/logger.cpp.obj CMakeFiles/main.dir/utils/value.cpp.obj CMakeFiles/main.dir/main.cpp.obj
+build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/myorm/connection.cpp.obj CMakeFiles/main.dir/myorm/connection_pool.cpp.obj CMakeFiles/main.dir/myorm/database.cpp.obj CMakeFiles/main.dir/myorm/transaction.cpp.obj CMakeFiles/main.dir/utils/logger.cpp.obj CMakeFiles/main.dir/utils/value.cpp.obj CMakeFiles/main.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -llibmysql  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LD:/MySQL/lib

@@ -5,7 +5,7 @@ using namespace lh::utils;
 #include <sstream>
 using std::stringstream;
 
-Value::Value() : m_type(V_BOOL);
+Value::Value() : m_type(V_BOOL) {}
 
 Value::Value(bool value) : m_type(V_BOOL) {
 	*this = value;
@@ -40,7 +40,7 @@ void Value::type(Type type) {
 }
 
 bool Value::is_null() const {
-	return m_type = V_NULL;
+	return m_type == V_NULL;
 }
 
 bool Value::is_int() const {

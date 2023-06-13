@@ -79,10 +79,11 @@ namespace myorm {
     template <typename T>
     Batch<T> Connection::batch(const string& sql) {
         Batch<T> batch;
+
         if (m_debug) {
             log_debug("sql: %s", sql.c_str());
         }
-        int ret = mysql_real_query(&m_mysql. sql.data(), sql.size());
+        int ret = mysql_real_query(&m_mysql, sql.data(), sql.size());
         if (ret != 0) {
             log_error("mysql_real_query errno:%d error: %s", mysql_errno(&m_mysql), mysql_error(&m_mysql));
             return batch;

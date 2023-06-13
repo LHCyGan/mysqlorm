@@ -22,4 +22,18 @@
 - [x] 批处理对象
 - [x] 单个连接对象
 - [x] 连接池、 数据库对象
+- [x] 事务、模型
+- [x] 示例
 
+```angular2html
+mkdir build
+```
+```angular2html
+cd build
+```
+```angular2html
+cmake ..
+```
+```angular2html
+make install
+```
