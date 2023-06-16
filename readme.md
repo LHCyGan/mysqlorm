@@ -34,6 +34,9 @@ cd build
 ```angular2html
 cmake ..
 ```
+```
+make
+```
 ```angular2html
 make install
 ```
